@@ -2244,218 +2244,198 @@ footer p {
 }
 
 
+
 /* =====================================================
-   MOBILE
+   MOBILE RESPONSIVE
+   IMPORTANT: THIS IS THE ONLY MOBILE SECTION.
+   KEEP THIS ENTIRE SECTION AT THE VERY END OF THE FILE.
+
+   This section fixes:
+   - Mobile navigation spacing
+   - Mobile hero sizing
+   - Single-column cards
+   - Event-card text/button overlap
+   - Event subpage layout
+   - Mobile event information cards
 ===================================================== */
 
-@media(max-width:900px) {
+@media (max-width: 900px) {
+
+    /* =================================================
+       GENERAL MOBILE LAYOUT
+    ================================================== */
 
     .about-grid {
-
-        grid-template-columns:
-            1fr;
-
+        grid-template-columns: 1fr;
     }
-
 
     .events-grid {
-
-        grid-template-columns:
-            1fr;
-
+        grid-template-columns: 1fr;
     }
-
-
-    .event-info-grid {
-
-        grid-template-columns:
-            1fr 1fr;
-
-    }
-
 
     .event-intro-grid {
-
-        grid-template-columns:
-            1fr;
-
-        gap:
-            40px;
-
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
-
 
     .expect-grid {
-
-        grid-template-columns:
-            1fr;
-
+        grid-template-columns: 1fr;
     }
-
-}
-
-
-@media(max-width:600px) {
-
-    .navbar {
-
-        padding:
-            13px 5%;
-
-    }
-
-
-    .nav-links {
-
-        gap:
-            14px;
-
-    }
-
-
-    .nav-links a {
-
-        font-size:
-            10px;
-
-    }
-
-
-    .hero-logo {
-
-        width:
-            150px;
-
-        height:
-            150px;
-
-    }
-
-
-    .hero h1 {
-
-        letter-spacing:
-            7px;
-
-    }
-
-
-    .hero h2 {
-
-        letter-spacing:
-            2px;
-
-    }
-
-
-    .section {
-
-        padding:
-            90px 20px;
-
-    }
-
-
-    .about-card {
-
-        padding:
-            30px;
-
-    }
-
-
-    .event-card {
-
-        min-height:
-            350px;
-
-    }
-
-
-    .event-breadcrumb {
-
-        left:
-            20px;
-
-        top:
-            95px;
-
-    }
-
-
-    .event-hero {
-
-        padding:
-            150px 20px 80px;
-
-    }
-
-
-    .event-hero h1 {
-
-        letter-spacing:
-            3px;
-
-    }
-
-
-    .event-meta {
-
-        flex-direction:
-            column;
-
-    }
-
-
-    .event-meta div {
-
-        border-right:
-            none;
-
-        border-bottom:
-            1px solid
-            rgba(32,217,255,.12);
-
-    }
-
-
-    .event-meta div:last-child {
-
-        border-bottom:
-            none;
-
-    }
-
-
-    .event-section {
-
-        padding:
-            80px 20px;
-
-    }
-
 
     .event-info-grid {
-
-        grid-template-columns:
-            1fr;
-
+        grid-template-columns: 1fr 1fr;
     }
 
+
+    /* =================================================
+       NAVBAR — MOBILE
+    ================================================== */
+
+    .navbar {
+        padding: 13px 5%;
+    }
+
+    .nav-links {
+        gap: 14px;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+    }
+
+
+    /* =================================================
+       HERO — MOBILE
+    ================================================== */
+
+    .hero-logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hero h1 {
+        letter-spacing: 7px;
+    }
+
+    .hero h2 {
+        letter-spacing: 2px;
+    }
+
+
+    /* =================================================
+       GENERAL SECTIONS — MOBILE
+    ================================================== */
+
+    .section {
+        padding: 90px 20px;
+    }
+
+    .about-card {
+        padding: 30px;
+    }
+
+
+    /* =================================================
+       EVENT CARDS — MOBILE OVERLAP FIX
+
+       The desktop card uses a fixed minimum height and
+       the VIEW EVENT button is positioned at the bottom.
+       On a phone the paragraph becomes taller, so the
+       button can overlap the text.
+
+       FIX:
+       - Remove the fixed minimum height
+       - Let the card grow with its content
+       - Reserve bottom space for the button
+    ================================================== */
+
+    .event-card {
+        min-height: auto;
+        height: auto;
+        padding: 30px 28px 85px;
+    }
+
+    .event-card h3 {
+        font-size: 23px;
+        line-height: 1.35;
+        margin-top: 14px;
+    }
+
+    .event-card p {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .event-arrow {
+        position: absolute;
+        left: 28px;
+        bottom: 25px;
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .event-number {
+        font-size: 48px;
+    }
+
+
+    /* =================================================
+       EVENT SUBPAGE — MOBILE
+    ================================================== */
+
+    .event-breadcrumb {
+        left: 20px;
+        top: 95px;
+    }
+
+    .event-hero {
+        padding: 150px 20px 80px;
+    }
+
+    .event-hero h1 {
+        letter-spacing: 3px;
+        line-height: 1.15;
+    }
+
+    .event-meta {
+        flex-direction: column;
+    }
+
+    .event-meta div {
+        border-right: none;
+        border-bottom: 1px solid rgba(32,217,255,.12);
+    }
+
+    .event-meta div:last-child {
+        border-bottom: none;
+    }
+
+
+    /* =================================================
+       EVENT SECTIONS — MOBILE
+    ================================================== */
+
+    .event-section {
+        padding: 80px 20px;
+    }
 
     .event-big-text {
+        font-size: 32px;
+    }
 
-        font-size:
-            32px;
-
+    .event-description {
+        padding-left: 20px;
     }
 
 
-    .event-description {
+    /* =================================================
+       EVENT INFORMATION — MOBILE
+    ================================================== */
 
-        padding-left:
-            20px;
-
+    .event-info-grid {
+        grid-template-columns: 1fr;
     }
 
 }
